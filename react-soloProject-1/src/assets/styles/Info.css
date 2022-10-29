@@ -1,0 +1,59 @@
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info--image {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+header > h1 {
+  margin-bottom: 0;
+}
+
+header > p {
+  color: #f3bf99;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links > a {
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 1em;
+  transition: 0.4s ease-in-out;
+}
+
+.links > .emailLink {
+  background-color: #ffffff;
+  color: #000;
+  margin-right: 20%;
+}
+
+.links > .emailLink:hover {
+  background-color: rgb(199, 199, 199);
+}
+
+.links > .linkedInLink {
+  background-color: #5093e2;
+}
+
+.links > .linkedInLink:hover {
+  background-color: #4074b0;
+}
+
+.links--icon {
+  width: 20px;
+  margin-right: 10px;
+}

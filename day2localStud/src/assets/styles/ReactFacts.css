@@ -1,0 +1,25 @@
+main {
+  padding: 57px 27px;
+  color: white;
+}
+
+.reactFacts--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.reactFacts--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.reactFacts--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.reactFacts--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}

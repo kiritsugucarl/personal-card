@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  box-shadow: none;
+  background-color: #23252c;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.root {
+  max-width: 500px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #1a1b21;
+}

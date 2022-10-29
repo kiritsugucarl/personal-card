@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #161619;
+  padding: 16px 8px;
+  height: 64px;
+}
+
+footer > a > .footer--icon {
+  width: 30px;
+  filter: grayscale(100%);
+  transition: 0.4s ease-in-out;
+}
+
+footer > a > .footer--icon:hover {
+  filter: grayscale(0);
+  width: 40px;
+}
