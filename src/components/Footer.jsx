@@ -10,7 +10,7 @@ export default function Footer(){
             <a href="#"><img className="footer--icon" src={twitter} /></a>
             <a href="#"><img className="footer--icon" src={facebook} /></a>
             <a href="#"><img className="footer--icon" src={instagram} /></a>
-            <a href="#"><img className="footer--icon" src={github} /></a>
+            <a href="https://github.com/kiritsugucarl"><img className="footer--icon" src={github} /></a>
         </footer>
     )
 }
